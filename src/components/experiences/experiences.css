@@ -1,0 +1,36 @@
+.experiences__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.experiences__container > div {
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+    border: 1px solid;
+    width: 48%; 
+    box-sizing: border-box;
+    margin-bottom: 2rem;
+}
+
+.experiences__container > div h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.experiences__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.experiences__details {
+    display: flex;
+    gap: 1rem;
+}
+
+.experiences__details-icon {
+    margin-top: 6px;
+}
