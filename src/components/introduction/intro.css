@@ -1,0 +1,38 @@
+.about__container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+.about__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about__card {
+    flex: 0 1 calc(50% - 1.5rem);
+    margin: 5rem;
+}
+
+.about__card:hover {
+    background: transparent;
+    cursor: default;
+}
+
+.about__icon {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.about__card h4 {
+    font-size: 1rem;
+}
+
+.about__card small {
+    font-size: 0.9rem;
+}
+
+.about__content p {
+    margin: 1.5rem;
+}
