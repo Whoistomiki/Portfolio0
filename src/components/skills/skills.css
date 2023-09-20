@@ -1,29 +1,33 @@
 .skills__container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 2rem;
 }
 
 .skills__container > div {
-    padding: 1rem 1rem;
-    border-radius: 1rem;
-    border: 1px solid;
-    width: 49%; 
-    box-sizing: border-box;
-    margin-bottom: 2rem;
+    background: var(--color-bg-variant);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.skills__container > div:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
 }
 
 .skills__container > div h3 {
     text-align: center;
     margin-bottom: 2rem;
+    color: var(--color-primary);
 }
 
 .skills__content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
 }
 
 .skills__details {
@@ -33,4 +37,36 @@
 
 .skills__details-icon {
     margin-top: 6px;
+    color: var(--color-primary);
+}
+
+.text-light {
+    color: var(--color-light)
+}
+
+@media screen and (max-width: 1024px){
+    .skills__container {
+        grid-template-columns: 1fr;
+    }
+
+    .skills__container > div {
+        width: 80%;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+
+    .skills__content p {
+        padding: 1rem;
+    }
+}
+  
+@media screen and (max-width: 600px){
+    .skills__container {
+        gap: 1rem;
+    }
+
+    .skills__container > div {
+        width: 100%;
+        padding: 2rem 1rem;
+    }
 }
