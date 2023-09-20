@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <section id='projects'>
       <h5>Mes projets récents (à venir)</h5>
-      <h2>Portfolio</h2>
+      <h2>Projets</h2>
       <div className="projects__container "  >
         <article className="projects__item">
             <h3>Gamer Helper</h3>
