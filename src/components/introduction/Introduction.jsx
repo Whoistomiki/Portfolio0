@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaAward } from 'react-icons/fa';
-
+import ME from "../../../src/assets/Me.JPG";
 import './intro.css';
 
 const Introduction = () => {
@@ -9,6 +9,11 @@ const Introduction = () => {
       <h5>Faisons connaissance</h5>
       <h2>À propos de moi</h2>
       <div className="container about__container">
+      <div className="about__me">
+          <div className="about__me-image">
+            <img src={ME} alt="me" />
+          </div>
+        </div>  
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
