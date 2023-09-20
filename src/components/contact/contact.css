@@ -1,0 +1,56 @@
+.container.contact__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+} 
+
+.contact__options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.2rem;
+}
+
+.contact__option {
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+}
+
+.contact__option-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact__option a {
+    margin-top: 0.7rem;
+    display: inline-block;
+    font-size: 0.8rem;
+}
+
+.contact__option h4 {
+    font-weight: 500;
+}
+
+form span {
+    font-size: 0.8rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid var(--color-primary-variant);
+    resize: none;
+    color: var(--color-white);
+}
