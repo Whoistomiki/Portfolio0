@@ -1,6 +1,7 @@
 import React from 'react'
 import './projects.css'
 import Gamerhelper from "../../assets/Gamerhelper.png"
+import CS from "../../assets/CS.png"
 
 const Projects = () => {
   return (
@@ -8,8 +9,10 @@ const Projects = () => {
       <h5>Mes projets récents (à venir)</h5>
       <h2>Projets</h2>
       <div className="projects__container "  >
-        <article className="projects__item">
+        <div className="projects__item">
+
             <h3>Gamer Helper</h3>
+
             <div className="projects__item-image width-image">
               <img src={Gamerhelper} alt="Aperçu du projet"/>
             </div>
@@ -21,8 +24,17 @@ const Projects = () => {
                 Visiter le site
               </a>
             </div>
-          </article>
-      </div>
+            </div>
+
+        <div className="projects__item">
+
+            <h3>Projet 2</h3>
+
+            <div className="projects__item-image width-image">
+              <img src={CS} alt="Aperçu du projet"/>
+            </div>
+            </div>
+          </div>
     </section>
   )
 }
