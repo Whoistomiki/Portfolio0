@@ -1,6 +1,7 @@
 import React from 'react';
 import { BsLinkedin } from 'react-icons/bs';
 import { BsGithub } from 'react-icons/bs';
+import { BsWhatsapp } from 'react-icons/bs';
 import './footer.css';
 
 const Footer = () => {
@@ -17,7 +18,8 @@ const Footer = () => {
       </ul>
       <div className="footer__socials">
       <a href="https://www.linkedin.com/in/thomas-yu92/" target="_blank" rel="noreferrer"><BsLinkedin /></a>
-      <a href="https://github.com/Whoistomiki" target="_blank"  rel="noreferrer"><BsGithub /></a>   
+      <a href="https://github.com/Whoistomiki" target="_blank"  rel="noreferrer"><BsGithub /></a>
+      <a aria-label="Chat on WhatsApp" href="https://wa.me/+33664028866" target="_blank" rel="noreferrer"><BsWhatsapp /></a>   
       </div>
       <div className="footer__copyright">
         <small>Thomas YU 2023 Tous droits réservés</small>
