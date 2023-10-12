@@ -16,8 +16,7 @@ const Experiences = () => {
             <div className="container experiences__container">
                 <div className="experiences__studies">
                     <h3>Formations</h3>
-                    
-                    <div className="experiences__content">
+    
                     <article className="experiences__details">
                         <FaUniversity className="experiences__details-icon" />
                         <h4>École EEMI</h4>
@@ -27,7 +26,7 @@ const Experiences = () => {
                     <article className="experiences__details">
                         <BsWebcamFill className="experiences__details-icon" /> 
                         <h4>École O'clock</h4>
-                        <small className='text-light'>{"2022-2023"}</small>
+                        <small className='text-light'>{"2021-2022"}</small>
                     </article>
             
                     <article className="experiences__details">
@@ -38,15 +37,15 @@ const Experiences = () => {
 
                     <article className="experiences__details">
                         <MdOutlineSchool className="experiences__details-icon" />
-                        <h4>Honoré de Balzac</h4>
+                        <h4>Lycée Honoré de Balzac</h4>
                         <small className='text-light'>{"2009-2012"}</small>
                     </article>
-                    </div>
+                    
                 </div>
 
                 <div className="experiences__work">
                     <h3>Expériences Professionnelles</h3>
-                    <div className="experiences__content">
+
                     <article className="experiences__details">
                         <SiFranprix className="experiences__details-icon" />
                         <h4>Merchandiser</h4>
@@ -67,11 +66,10 @@ const Experiences = () => {
 
                     <article className="experiences__details">
                         <CiBeerMugFull className="experiences__details-icon" />
-                        <h4>Serveur / Barman</h4>
+                        <h4>Serveur / Barman polyvalent</h4>
                         <small className='text-light'>{"2014-2015"}</small>
                     </article>
                 </div>
-            </div>
         </div>
         </section>
     )

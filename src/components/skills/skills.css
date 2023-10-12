@@ -24,12 +24,6 @@
     color: var(--color-primary);
 }
 
-.skills__content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 2rem;
-}
-
 .skills__details {
     display: flex;
     gap: 1rem;
@@ -53,10 +47,6 @@
         width: 80%;
         margin: 0 auto;
         padding: 2rem;
-    }
-
-    .skills__content p {
-        padding: 1rem;
     }
 }
   

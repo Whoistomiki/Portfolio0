@@ -24,19 +24,12 @@
     color: var(--color-primary);
 }
 
-.experiences__content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 2rem;
-}
-
 .experiences__details {
     display: flex;
     gap: 1rem;
 }
 
 .experiences__details-icon {
-    margin-top: 6px;
     color: var(--color-primary);
 }
 
@@ -53,10 +46,6 @@
         width: 80%;
         margin: 0 auto;
         padding: 2rem;
-    }
-
-    .experiences__content p {
-        padding: 1rem;
     }
 }
   

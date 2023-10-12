@@ -23,7 +23,7 @@ const Introduction = () => {
             </article>
           </div>
           <p>
-          Je m'appelle Thomas, j'ai 28 ans et je suis développeur web, actuellement à la recherche d'une alternance pour préparer un bachelor en chef de projets digitaux spécialisation développement d'applications et cybersécurité à l'EEMI.
+          Je m'appelle Thomas, j'ai 29 ans et je suis développeur web, actuellement à la recherche d'une alternance pour préparer un bachelor en chef de projets digitaux spécialisation développement d'applications et cybersécurité à l'EEMI.
             </p>
             <p>  
               Après avoir obtenu mon titre professionnel DWWM après mon passage à l'école O'Clock suite à une reconversion professionnelle, je suis un jeune diplômé en bac +2 à la recherche d'une opportunité d'apprentissage en alternance pour poursuivre mon parcours académique en bachelor.

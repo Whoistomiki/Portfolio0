@@ -10,6 +10,8 @@ import {SiSwagger} from 'react-icons/si'
 import {SiJavascript} from 'react-icons/si'
 import {FaJava} from 'react-icons/fa'
 import {FaGitAlt} from 'react-icons/fa'
+import {SiPython} from 'react-icons/si'
+import {SiDocker} from 'react-icons/si'
 
 
 const Skills = () => {
@@ -20,15 +22,15 @@ const Skills = () => {
       <div className="container skills__container">
         <div className="skills__frontend">
           <h3>Front-end</h3>
-          <div className="skills__content">
+
           <article className="skills__details">
               <TiHtml5 className="skills__details-icon" />
-              <h4>HTML</h4>
+              <h4>HTML5</h4>
               <small className='text-light'>{"Avancé"}</small>
             </article>
             <article className="skills__details">
               <SiCss3 className="skills__details-icon" />
-              <h4>CSS</h4>
+              <h4>CSS3</h4>
               <small className='text-light'>{"Avancé"}</small>
             </article>
             <article className="skills__details">
@@ -47,11 +49,11 @@ const Skills = () => {
               <small className='text-light'>{"Débutant"}</small>
             </article>
 
-          </div>
         </div>
+
         <div className="skills__backend">
           <h3>Back-end</h3>
-          <div className="skills__content">
+
           <article className="skills__details">
               <DiNodejs className="skills__details-icon" />
               <h4>Node / Express</h4>
@@ -77,7 +79,17 @@ const Skills = () => {
               <h4>Git / GitHub</h4>
               <small className='text-light'>{"Avancé"}</small>
             </article>
-          </div>
+            <article className="skills__details">
+              <SiPython className="skills__details-icon" />
+              <h4>Python</h4>
+              <small className='text-light'>{"Intermédiaire"}</small>
+            </article>
+            <article className="skills__details">
+              <SiDocker className="skills__details-icon" />
+              <h4>Docker</h4>
+              <small className='text-light'>{"Débutant"}</small>
+            </article>
+
         </div>
       </div>
     </section>
