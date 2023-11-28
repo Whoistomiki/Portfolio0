@@ -1,12 +1,13 @@
 import React from 'react';
 import './experiences.css';
-import {BsWebcamFill} from 'react-icons/bs';
-import {FaUniversity} from 'react-icons/fa';
-import {MdOutlineSchool} from 'react-icons/md';
-import {MdSell} from 'react-icons/md';
-import {SiFranprix} from 'react-icons/si';
-import {RiCalendarEventFill} from 'react-icons/ri';
-import {CiBeerMugFull} from 'react-icons/ci';
+import {BsWebcamFill} from 'react-icons/bs'
+import {FaUniversity} from 'react-icons/fa'
+import {MdOutlineSchool} from 'react-icons/md'
+import {MdSell} from 'react-icons/md'
+import {SiFranprix} from 'react-icons/si'
+import {RiCalendarEventFill} from 'react-icons/ri'
+import {CiBeerMugFull} from 'react-icons/ci'
+import { RiSchoolFill } from "react-icons/ri"
 
 const Experiences = () => {
     return (
@@ -30,7 +31,7 @@ const Experiences = () => {
                     </article>
             
                     <article className="experiences__details">
-                        <FaUniversity className="experiences__details-icon" />
+                        <RiSchoolFill className="experiences__details-icon" />
                         <h4>Université Paris 8</h4>
                         <small className='text-light'>{"2013-2014"}</small>
                     </article>
@@ -47,6 +48,12 @@ const Experiences = () => {
                     <h3>Expériences Professionnelles</h3>
 
                     <article className="experiences__details">
+                        <CiBeerMugFull className="experiences__details-icon" />
+                        <h4>Serveur / Barman polyvalent</h4>
+                        <small className='text-light'>{"2008-∞"}</small>
+                    </article>
+
+                    <article className="experiences__details">
                         <SiFranprix className="experiences__details-icon" />
                         <h4>Merchandiser</h4>
                         <small className='text-light'>{"2023"}</small>
@@ -54,7 +61,7 @@ const Experiences = () => {
 
                     <article className="experiences__details">
                         <RiCalendarEventFill className="experiences__details-icon" />
-                        <h4>Assistant administratif</h4>
+                        <h4>Agent administratif</h4>
                         <small className='text-light'>{"2016-2023"}</small>
                     </article>
 
@@ -63,12 +70,7 @@ const Experiences = () => {
                         <h4>Conseiller de vente</h4>
                         <small className='text-light'>{"2015-2016"}</small>
                     </article>
-
-                    <article className="experiences__details">
-                        <CiBeerMugFull className="experiences__details-icon" />
-                        <h4>Serveur / Barman polyvalent</h4>
-                        <small className='text-light'>{"2014-2015"}</small>
-                    </article>
+                
                 </div>
         </div>
         </section>

@@ -27,6 +27,10 @@ const Introduction = () => {
             </p>
             <p>  
               Après avoir obtenu mon titre professionnel DWWM après mon passage à l'école O'Clock suite à une reconversion professionnelle, je suis un jeune diplômé en bac +2 à la recherche d'une opportunité d'apprentissage en alternance pour poursuivre mon parcours académique en bachelor.
+            </p>
+            <p>
+              Je suis qu'un jeune développeur web, mais je suis passionné par ce domaine et je suis prêt à relever de nouveaux défis. 
+              Je suis quelqu'un de curieux, qui aime apprendre et découvrir de nouvelles choses. Je suis également quelqu'un de très sociable, qui aime travailler en équipe et qui est à l'écoute des autres.
             </p>  
             <p>
               Ouvert aux opportunités de collaboration et de travail, n'hésitez pas à me contacter !
